@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'KyoboHand';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/KyoboHand.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@media (max-width: 768px) {
+    aside {
+        margin-left: 0;
+        transform: none;
+    }
+}
+main {
+    display: flex;
+    align-items: flex-start;
+}
+
+article {
+    flex: 3;
+    min-width: 300px;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    transform: translateX(-50px);
+    min-width: 200px;
+    font-family: 'KyoboHand';
+    font-size: 18px;
+}
+
+aside ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:black;
+    font-size: 24px;
+    font-family: 'KyoboHand';
+    
+}
+
+#home ol {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+#header {
+    transform: translateX(-500px);
+    font-family: 'KyoboHand';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    color:black;
+}
